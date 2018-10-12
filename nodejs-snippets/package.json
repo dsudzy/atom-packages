@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+        "spec": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/apm-install-dir-1171010-29340-1qb8rhz.fy6gw7mn29"
+    ]
+  ],
+  "_from": "../d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+  "_id": "nodejs-snippets@2.0.2",
+  "_inCache": true,
+  "_location": "/nodejs-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+    "spec": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+  "_shasum": "3e8a4d84a877ea4305dbbc1fcf9e65022d54ed61",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/d-1171010-29340-5qfjqe.yqno4dkj4i/package.tgz",
+  "_where": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/apm-install-dir-1171010-29340-1qb8rhz.fy6gw7mn29",
+  "author": {
+    "name": "dead_horse",
+    "email": "dead_horse@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dead-horse/atom-nodejs-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "atom nodejs snippets",
+  "devDependencies": {},
+  "homepage": "https://github.com/dead-horse/atom-nodejs-snippets#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nodejs-snippets",
+  "optionalDependencies": {},
+  "readme": "atom-nodejs-snippets\n--------\n\nMy atom Node.js snippets.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dead-horse/atom-nodejs-snippets.git"
+  },
+  "version": "2.0.2"
+}

@@ -1,0 +1,117 @@
+{
+  "_from": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+  "_id": "linter-csslint@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-b/CZ4jILDGpxLZLm4IVos79mZ3w6Gm0y84hxWjEohcpa356w0q4/PhlEmIzDIE22gR8gsSc02xZ3Cxb/sLB6Vg==",
+  "_location": "/linter-csslint",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+  "_shasum": "745952cc124bf1d9ed7506e0f691b0b1bd413725",
+  "_spec": "https://www.atom.io/api/packages/linter-csslint/versions/2.0.1/tarball",
+  "_where": "/private/var/folders/v9/gsv9tcmj2wgf6fvqtb3whxr40000gp/T/apm-install-dir-118912-47419-sqmgnw.ihqd",
+  "bugs": {
+    "url": "https://github.com/AtomLinter/linter-csslint/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "configSchema": {
+    "executablePath": {
+      "type": "string",
+      "default": "",
+      "description": "If unset a project local install of CSSLint is attempted to be used first, falling back to the bundled version. Requires a full path to `csslint` (e.g.: `/usr/bin/csslint` or `C:\\foo\\bar\\csslint.cmd`)."
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^4.6.0",
+    "csslint": "^1.0.5",
+    "fs-plus": "^3.0.1"
+  },
+  "deprecated": false,
+  "description": "Lint CSS on the fly, using csslint",
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.3",
+    "@commitlint/config-conventional": "^6.1.3",
+    "@commitlint/travis-cli": "^6.1.3",
+    "@semantic-release/apm-config": "^2.0.1",
+    "eslint": "^4.6.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "husky": "^0.14.3",
+    "jasmine-fix": "^1.3.0",
+    "semantic-release": "^15.1.7"
+  },
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true,
+      "browser": true
+    }
+  },
+  "homepage": "https://github.com/AtomLinter/linter-csslint#readme",
+  "keywords": [
+    "csslint",
+    "css",
+    "linter",
+    "lint"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "linter-csslint",
+  "package-deps": [
+    "linter:2.0.0"
+  ],
+  "private": true,
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/linter-csslint.git"
+  },
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "lint": "eslint .",
+    "test": "apm test"
+  },
+  "version": "2.0.1"
+}
